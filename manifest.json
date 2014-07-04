@@ -1,0 +1,12 @@
+﻿{
+	"name": "GoogleCDN to 360CDN",
+	"permissions": ["webRequest", "webRequestBlocking", 
+		"http://ajax.googleapis.com/*", "https://ajax.googleapis.com/*",
+		"http://fonts.googleapis.com/*", "https://fonts.googleapis.com/*"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"manifest_version": 2,
+	"version": "1.0.0",
+	"author": "edisonH"
+}
